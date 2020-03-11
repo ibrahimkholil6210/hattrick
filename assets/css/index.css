@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/*=========  header top style START ===========*/
+.header-top {
+    background-color: #1F1F29;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.header-top ul li {
+    float: left;
+    padding: 5px;
+}
+
+.header-top ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-top ul li ion-icon {
+    color: #546de5;
+    position: relative;
+    top: 2px;
+    margin: 0 4px;
+}
+
+/*=========  header top style END ===========*/
+
+
+/*=========  header middle style START ===========*/
+.header-middle {
+    font-size: 14px;
+    background: #000000;
+    border-bottom: 5px solid #546de5;
+    color: white;
+}
+
+/*========= 
+Search area css Start
+===========*/
+.search-area {
+}
+
+.brand-logo{
+    color: #ffffff;
+}
+
+.brand-logo:hover{
+    color: #ffffff;
+}
+
+.brand-logo span i{
+    color: #546de5;
+}
+
+.cat-select {
+    padding: 0 15px;
+    border: 1px solid #e4e7ed;
+    height: 40px;
+    position: relative;
+    left: 4px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.select-input {
+    width: calc(100% - 260px);
+    margin-right: -4px;
+    height: 40px;
+    padding: 0 14px;
+}
+
+.search-button {
+    height: 40px;
+    width: 100px;
+    background: #d10024;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 0 40px 40px 0;
+}
+
+/*========= 
+Search area css END
+===========*/
+
+/*========= 
+Cart area css Start
+===========*/
+.header-middile-shop {
+    float: right;
+    margin-top: 15px;
+}
+
+.icon-center {
+    text-align: center;
+}
+
+.header-middile-shop ion-icon {
+    color: white;
+    width: 20px;
+    height: 17px;
+}
+
+/*========= 
+Cart area css END
+===========*/
+
+
+/*========= header middle style END ===========*/
+
+
+/*=========  header navbar style START ===========*/
+.header-navbar {
+    color: #000000 !important;
+}
+
+nav {
+    font-size: 14px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #dcdde1;
+
+}
+
+.header-navbar li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 30px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: black !important;
+    margin-left: 17px;
+}
+
+.header-navbar li a:hover {
+    border-bottom: 2px solid #546de5;
+    padding-bottom: 0 !important;
+
+}
+
+/*=========  header navbar style END ===========*/
+
+
+/*=========  main section style START ===========*/
+.product-view {
+    margin-top: 100px;
+}
+
+.product-heading {
+    text-align: left;
+    color: #000000;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dcdde1;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.product-heading-style {
+    color: #546de5;
+}
+
+.product-image .items img {
+    width: 100%;
+    height: 250px;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+/*========= 
+Latest product css END
+===========*/
+
+.latest-product-heading {
+    margin: 100px 0 50px 0;
+}
+
+.latest-product-card {
+    margin-bottom: 50px;
+}
+
+.lastest-product-view {
+    overflow: hidden;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.latest-product-body {
+    text-align: center;
+    padding: 15px 0 0;
+}
+
+.latest-product-category {
+    color: #8d99ae;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.latest-product-name {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.latest-product-price {
+    color: #d10024;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.add-to-cart-button {
+    padding: 10px;
+    text-align: center;
+}
+
+.add-to-cart-button a {
+    color: #546de5;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.add-to-cart-button ion-icon {
+    margin-right: 10px;
+    color: #546de5;
+
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.w-full {
+    width: 100%;
+    height: 250px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.shadow-1 {
+    box-shadow: 0 0 0 0 #e4e7ed, 0 0 0 1px #e4e7ed;
+}
+
+.blue-hover {
+    transition: all 0.25s ease-in;
+    border-bottom: 5px solid transparent;
+}
+
+.blue-hover:hover {
+    transform: translateY(-5px);
+    mar border: none;
+    border-bottom: 5px solid #546de5;
+}
+
+
+
+/*========= 
+Latest Product css END
+===========*/
+
+/*=========  main section style END ===========*/
+
+
+/*=========  Footer section style START ===========*/
+.product-footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/*=========  Footer section style END ===========*/
+
+
+/*=========  Login Page style START ===========*/
+.account-company-details {
+    margin: 60px 0 50px 0;
+    text-align: center;
+}
+
+.account-company-details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+}
+
+.account-form {
+    width: 30rem;
+    margin: 0px auto;
+}
+
+.account-form ion-icon {
+    color: #546de5;
+    position: relative;
+    top: 3px;
+    margin: 0 4px;
+}
+
+.account-form .btn {
+    background: #546de5;
+    color: white;
+    float: right;
+    padding: 10px 15px;
+}
+
+.account-form .form-control:hover {
+    border-bottom: 3px solid #546de5;
+    height: 50px;
+}
+
+.account-login-setup {
+    margin: 15px 0 0 0;
+}
+
+.account-login-setup ul {
+    float: right;
+}
+
+.account-login-setup ul li {
+    margin: 8px 0;
+}
+
+
+.account-login-setup ul li a {
+    color: black;
+}
+
+/*=========  Login Page style END ===========*/
+
+
+/*=========  Login Page style END ===========*/
+.account-signup-form{
+    margin-bottom:50px !important;
+}
+/*=========  Login Page style END ===========*/
+
+.n-footer{
+    background-color: #212529;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.n-footer-header h5{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.n-footer-header p{
+    font-size: 12px;
+    color: #777;
+    line-height: 26px;
+}
+
+.f-lg{
+    font-size: 25px!important;
+    color: #ffffff!important;
+}
+
+.n-footer-list ul li p,.n-footer-list ul li a{
+    font-size: 12px;
+    color: #777;
+    line-height: 26px;
+    transition: .35s;
+}
+
+.n-footer-list ul li a:hover{
+    color: #ffffff;
+}
+
+.n-footer-list ul li{
+    display: block;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.n-footer-list ul li p ion-icon{
+    color: #fff;
+    position: relative;
+    top: 2px;
+}
+
+.footer-special-brand{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.footer-special-qoute{
+    line-height: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.email_form{
+    border-radius: 5px;
+    height: 50px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+.button {
+    background: #546de5;
+    border: none;
+    color: white;
+    margin: 15px 0 25px 0;
+    padding: 8px 32px;
+    border-radius: 5px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.button ion-icon{
+    position: relative;
+    top: 2px;
+}
+
+.social_icon{
+
+}
+
+.social_icon a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    width: 25px;
+    border: 1px solid #4a1eff;
+    float: left;
+    margin: 0 6px 0 0;
+    background-color: #491dff;
+    height: 25px;
+    line-height: 28px;
+    border-radius: 50%;
+    transition: .35s;
+}
+
+.footer-bottom-section{
+    background-color: #1c2023;
+    padding: 20px 0;
+}
+
+.footer-bottom-section p{
+    color: #999;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-bottom-section ul{
+    text-align: right;
+}
+
+.footer-bottom-section ul li{
+    display: inline-block;
+    position: relative;
+    color: #999;
+    font-size: 12px;
+}
+
+.footer-bottom-section ul li img{
+    width: 35px;
+}
